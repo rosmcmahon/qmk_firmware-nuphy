@@ -1,5 +1,7 @@
 
 qmk clean && qmk compile -kb nuphy/air60_v2/ansi -km via
 
+# replug holding esc
+
 qmk flash -kb nuphy/air60_v2/ansi -km via
 
